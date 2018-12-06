@@ -1,0 +1,140 @@
+*{
+	border:0;
+	margin: 0;
+	font-family: augustus;
+	color: white;
+	float: left;
+	text-align: center;
+	font-size: x-large;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+#back{
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	opacity: 0.2; 
+	background-image:url('imgs/texturav.jpg');
+	background-repeat:round;
+	background-size: cover; 
+	position: absolute;
+}
+#user{
+	margin-top: 30%;
+	background-image: url('imgs/userleft.png');
+	background-repeat:round;
+	background-size: contain;
+	width: 50%;
+	line-height: 135%;
+}
+#pin{
+	margin-top: 10%;
+	background-image: url('imgs/pinleft.png');
+	background-repeat:round;
+	background-size: contain;
+	width: 50%;
+	line-height: 135%;
+}
+
+#usuarioin{
+right: 0;
+background-image: url('imgs/userrigth.png');
+background-size: contain;
+background-repeat: round;
+font-weight: bold;
+float: right;
+margin-top: 30%;
+width: 50%;
+height: 9%;
+color:white;
+display: inline-block;
+text-align: center;
+}
+#pinin{
+	right: 0;
+background-image: url('imgs/pinrigth.png');
+background-repeat: round;
+background-size: contain;
+margin-top: 10%;
+width: 50%;
+height: 9%;
+}
+.notes{
+cursor:not-allowed; 
+margin-top: 10%;
+text-shadow: 2px 2px 3px black;
+width: 50%;
+height: 10%;
+color: black;
+font-size: small;
+}
+#entrar{
+	left: calc(50% - 50px);
+	border-radius: 50%;
+	border: groove 2px grey;
+	height: 100px;
+	width: 100px;
+	background-color: lightgrey;
+	font-size: medium;
+	color:black;
+	position: absolute;
+	bottom: 20px;
+}
+#info{
+	z-index: 5;
+	right: 0;
+	border-radius: 40pt 0 0 40pt;
+	margin-top: 2%;
+	padding-left: 15%;
+	height: 12%;
+	width: 80%;
+	background-image: linear-gradient(to right, grey 40% , white);
+	position:fixed;
+	border: groove 2px;
+	text-align: left;
+}
+#cuentas{
+	z-index: 5;
+	position: fixed;
+	top:18%;
+	border-radius: 0 20px 20px 0;
+	background-color: grey;
+	padding-right: 20px;
+	height: 5%; width: 40%;
+	line-height: normal;
+	border: groove 2px;
+	margin-right: 60%;
+}
+#block{
+	display: inline-block;
+	margin: 10px 0 10px 0;
+	border: none;
+	position: absolute; 
+	width: 100%;
+	top: 24%;
+	background-color: rgba(0,0,0,.3) ;
+}
+.element{
+	width: 180px; height: 150px;
+	margin: 3% 5% 3% 5%;
+	display: inline;
+	position: relative;
+}
+.ele-circ{
+width: 130px; height: 120px;
+border-radius: 50%;
+background-color: white;
+box-shadow: 0px 3px 10px black;
+position: absolute;
+margin: 9% 11% 10% 14%; 
+}
+.ele-tag{
+width: 100%;height: 26%;
+top: 38%;
+position: absolute;
+background-color: rgba(0,0,0,0.7);
+border-radius: 20pt 0 20pt 0;
+vertical-align: middle;
+}
